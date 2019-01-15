@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+.target-page
+{
+    width: 100%;
+}
+iframe
+{
+    width: 100%;
+    height: 100%;
+}
+    </style>
+    <title>GlobalCircleSerch</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <div>
+        <h2>検索対象のページURL</h2>
+        <input class="target-page" type="text" value="http://voca-st.com/circlelist.php">
+        <input class="target-page" type="text" value="https://moricomi.info/mc2-list">
+        <input class="target-page" type="text" value="http://birdzberth.com/voiceroid_march/list.php">
+        <input class="target-page" type="text" value="http://usa-uta.com/circlelist.php">
+        <input class="target-page" type="text" value="https://kizuna-akari.net/yb/circlelist.php">
+        <input class="target-page" type="text" value="">
+        <input class="target-page" type="text" value="">
+    </div>
+    <div>
+        <h2>検索文字列（サークル名、ペンネーム）</h2>
+        <input id="query" type="text" value="">
+        <button id="emit-query">検索</button>
+        <p id="request"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
